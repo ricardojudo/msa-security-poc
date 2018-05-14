@@ -1,0 +1,28 @@
+<div *ngIf="captcha">
+  <div class="card" style="width: 27rem;" >
+    <img class="card-img-top" src="{{image}}" alt="Card image cap">
+    <div class="card-body">
+      <div>
+      <form class="form-inline">
+        <div class="input-group">
+        <input class="form-control" name="text" [(ngModel)]="validation.text">    
+          <div class="input-group-addon">
+            <button class="btn btn-primary" (click)="reload()" type="button">Reload</button>
+          </div>
+        </div>
+        
+        <div class="input-group">
+          <label>|</label>
+          <div class="btn-group">
+            <button class="btn btn-primary" (click)="validate()" type="button">CAPTCHA</button>
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
+    <div class="card-footer text-center text-white" [class.bg-success]="validationClass == 'success'" [class.bg-danger]="validationClass == 'failure'">
+        <h1>{{message}}</h1>
+    </div>
+  </div>
+</div>
+

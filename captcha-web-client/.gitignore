@@ -1,0 +1,26 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/src/main/resources/static/*
+src/main/resources/static/3rdpartylicenses.txt src/main/resources/static/favicon.ico src/main/resources/static/index.html src/main/resources/static/inline.d449dada1165dd2c12e6.bundle.js src/main/resources/static/main.77194ef5af84e0b1fd86.bundle.js src/main/resources/static/polyfills.46af3f84a403e219371b.bundle.js src/main/resources/static/styles.9c0ad738f18adc3d19ed.bundle.css

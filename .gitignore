@@ -1,0 +1,98 @@
+*.project
+*.classpath
+**/target/*
+*.jar
+*.bin
+*.settings
+**/.settings
+**/target
+.settings/**
+
+
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+**/dist
+**/dist-server
+**/tmp
+**/out-tsc
+
+# dependencies
+**/node_modules
+
+# IDEs and editors
+**/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+**/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+**/.sass-cache
+**/connect.lock
+**/coverage
+**/libpeerconnection.log
+**/npm-debug.log
+**/testem.log
+**/typings
+
+# e2e
+**/e2e/*.js
+**/e2e/*.map
+
+# System Files
+**/.DS_Store
+**/Thumbs.db
+captcha-web-client/src/main/resources/static/3rdpartylicenses.txt captcha-web-client/src/main/resources/static/favicon.ico captcha-web-client/src/main/resources/static/index.html captcha-web-client/src/main/resources/static/inline.d449dada1165dd2c12e6.bundle.js captcha-web-client/src/main/resources/static/main.77194ef5af84e0b1fd86.bundle.js captcha-web-client/src/main/resources/static/polyfills.46af3f84a403e219371b.bundle.js captcha-web-client/src/main/resources/static/styles.9c0ad738f18adc3d19ed.bundle.css
+**/logs/**
+wso2-is/wso2is-5.5.0.zip
